@@ -116,7 +116,7 @@ input[type=button], input[type=submit], input[type=reset] {
         transform: scale(0.95);
     }
 
-input[type=text] {
+input[type=text] [type=email], input [type=password] {
     background-color: #f6f6f6;
     border: none;
     color: #0d0d0d;
@@ -285,13 +285,12 @@ input[type=text] {
 }
 
 #icon {
-    width: 40%;
+    width: 30%;
 }
 
 * {
     box-sizing: border-box;
 }
-
 #cart {
     background-color: #39ace7;
     height: 30px;

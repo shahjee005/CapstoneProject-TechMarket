@@ -19,14 +19,12 @@ export class SignIn extends Component {
                         <img src="https://i.ibb.co/Q6xjBKS/Icon1.png" id="icon" alt="User Icon" />
                     </div>
 
-                    {/*SignIn*/}
+                    {/* SignIn */}
                     <form>
-                        <input type="text" id="signIn" class="fadeIn second" name="signIn" placeholder="Email" />
-                        <input type="text" id="password" class="fadeIn third" name="signIn" placeholder="Password" />
+                        <input type="email" id="signIn" class="fadeIn second" name="signIn" placeholder="Email" />
+                        <input type="password" id="password" class="fadeIn third" name="signIn" placeholder="Password" />
                         <input type="submit" class="fadeIn fourth" value="SignIn" />
                     </form>
-
-
                 </div>
             </div>
 
