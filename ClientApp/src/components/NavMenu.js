@@ -40,10 +40,11 @@ export class NavMenu extends Component {
                   <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
                 </NavItem>
                <NavItem>
-               <NavLink tag={Link} className="text-dark" to="/SignIn">SignIn</NavLink>
+               <NavLink tag={Link} className="text-dark" to="/SignIn">SignIn/Register</NavLink>
                </NavItem>
               </ul>
-            </Collapse>
+              </Collapse>
+            <button id="cart" ><i className="glyphicon glyphicon-shopping-cart" /> My Cart</button>
           </Container>
         </Navbar>
       </header>
