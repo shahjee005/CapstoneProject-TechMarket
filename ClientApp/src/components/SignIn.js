@@ -16,7 +16,7 @@ export class SignIn extends Component {
                     <Link to="/SignUp"><h2 className="inactive underlineHover">SignUp</h2></Link>
                     {/*<!-- icons -->*/}
                     <div class="fadeIn first">
-                        <img src="https://i.ibb.co/G0wL6TV/computer-icons-user-profile-male-avatar-avatar-png-clip-art.png" id="icon" alt="User Icon" />
+                        <img src="https://i.ibb.co/Q6xjBKS/Icon1.png" id="icon" alt="User Icon" />
                     </div>
 
                     {/*SignIn*/}

@@ -13,7 +13,7 @@ export class SignUp extends Component {
                     <h2 class="active">SignUp </h2>
                     {/*User icon*/}
                     <div class="fadeIn first">
-                        <img src="https://i.ibb.co/G0wL6TV/computer-icons-user-profile-male-avatar-avatar-png-clip-art.png" id="icon" alt="User Icon" />
+                        <img src="https://i.ibb.co/Q6xjBKS/Icon1.png" id="icon" alt="User Icon" />
                     </div>
                     {/*SignIn Form*/}
                     <form>
