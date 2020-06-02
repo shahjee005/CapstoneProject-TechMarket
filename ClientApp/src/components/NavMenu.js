@@ -26,28 +26,27 @@ export class NavMenu extends Component {
       <header>
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
           <Container>
-            <NavbarBrand tag={Link} to="/">TECHMarket</NavbarBrand>
-            <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-            <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
+         <img id="logo-nav" className="img-fluid img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/5/52/MYLAST_LOGO.png" alt="logo" />
+         
+       <NavbarToggler onClick={this.toggleNavbar} className="mr-2" id="toggler" />
+            
+              <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/validate">validate</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
-                </NavItem>
-               <NavItem>
-               <NavLink tag={Link} className="text-dark" to="/SignIn">SignIn/SignUp</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/SignIn">SignIn/SignUp</NavLink>
                </NavItem>
               </ul>
               </Collapse>
-            <button id="cart" ><i className="glyphicon glyphicon-shopping-cart" /> My Cart</button>
+              <button id="cart" type="submit"><i className="glyphicon glyphicon-shopping-cart" /> My Cart</button>
           </Container>
         </Navbar>
-      </header>
+        </header>
     );
   }
 }
