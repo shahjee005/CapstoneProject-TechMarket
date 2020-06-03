@@ -19,7 +19,7 @@ export class SignUp extends Component {
                     <form>
                         <input type="email" id="email" class="fadeIn second" name="signUp" placeholder="Email" />
                         <input type="password" id="password1" class="fadeIn third" name="signUp" placeholder="Password" />
-                        <input type="password" id="password2" class="fadeIn third" name="signUp" placeholder="Confirm Password" />
+                        <input type="password" id="password2" class="fadeIn third" name="signUp" placeholder="Confirm Your Password" />
                         <input type="submit" class="fadeIn fourth" value="SignUp" />
                     </form>
                     
