@@ -5,6 +5,7 @@ import { Home } from './components/Home';
 import { Counter } from './components/Counter';
 import { SignIn } from './components/SignIn';
 import { SignUp } from './components/SignUp';
+import { test } from './components/test';
 import './custom.css'
 
 
@@ -18,6 +19,7 @@ export default class App extends Component {
         <Route path='/counter' component={Counter} />
         <Route path='/SignIn' component={SignIn} />
         <Route path='/SignUp' component={SignUp} />
+        <Route path='/testt' component={test} />
       </Layout>
     );
   }
