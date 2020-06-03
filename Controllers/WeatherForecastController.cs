@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Net;
+using System.Xml.Linq;
+using TECHMarket.Model;
 
 namespace TECHMarket.Controllers
 {
@@ -32,8 +35,9 @@ namespace TECHMarket.Controllers
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+
+
+            });
         }
     }
 }
