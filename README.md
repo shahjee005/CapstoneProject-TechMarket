@@ -1,3 +1,6 @@
+# TECHMarket - Capstone Project 
+
+
 # Problem Definition
 Due to current COVID-19 pandemic scenario, majority of small business here in Edmonton are closed for operations and struggling to survive and it is very difficult for customers to go physically and shop. As most of the organizations have already shifted their gears to remote work hence there is an increased demand of tech products and there is a clear shortage of such products in market as well. 
 # Project Plan
