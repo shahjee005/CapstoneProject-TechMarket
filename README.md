@@ -1,4 +1,4 @@
-# TECHMarket - Capstone Project 
+# TECHMarket - Capstone Project. 
 
 
 # Problem Definition
