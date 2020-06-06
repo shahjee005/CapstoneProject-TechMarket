@@ -4,7 +4,7 @@ Due to current COVID-19 pandemic scenario, majority of small business here in Ed
 # Project Plan
 In order to counter this problem, we are plaining to design a full-stack online shopping web application that will be simple and user-friendly for such small business to operate remotely. A user can find selected tech items like laptops, cell phones, iPads of famous brands with good deals here. 
 # Team Memebers
-###  https://github.com/mahmoudmaguid
+###   https://github.com/mahmoudmaguid
 ###   https://github.com/shahjee005
 ###   https://github.com/zohairajweh
 ###   https://github.com/mohammad-Adawi
