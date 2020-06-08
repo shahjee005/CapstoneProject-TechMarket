@@ -1,10 +1,8 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-/* main */
+/* BASIC */
 
-html {
-    background-color: #56baed;
-}
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -30,7 +28,7 @@ h2 {
 
 
 
-/* BODY */
+/* STRUCTURE */
 
 .wrapper {
     display: flex;
@@ -67,7 +65,7 @@ h2 {
 
 
 
-/* tabs */
+/* TABS */
 
 h2.inactive {
     color: #cccccc;
@@ -80,9 +78,9 @@ h2.active {
 
 
 
-/* Forms*/
+/* FORM TYPOGRAPHY*/
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=button], input[type=submit], input[type=reset], button[id=continue-checkout] {
     background-color: #56baed;
     border: none;
     color: white;
@@ -96,10 +94,9 @@ input[type=button], input[type=submit], input[type=reset] {
     box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
-    margin: 5px 20px 40px 20px;
+    margin: 5px 20px 40px 5px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -116,7 +113,7 @@ input[type=button], input[type=submit], input[type=reset] {
         transform: scale(0.95);
     }
 
-input[type=text] [type=email], input [type=password] {
+input[type=email], input[type=password], input[type=text] {
     background-color: #f6f6f6;
     border: none;
     color: #0d0d0d;
@@ -130,7 +127,6 @@ input[type=text] [type=email], input [type=password] {
     border: 2px solid #f6f6f6;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     -webkit-border-radius: 5px 5px 5px 5px;
@@ -142,14 +138,11 @@ input[type=text] [type=email], input [type=password] {
         border-bottom: 2px solid #5fbae9;
     }
 
-    input[type=text]:placeholder {
-        color: #cccccc;
-    }
 
 
+/* ANIMATIONS */
 
-/* Simple Animation */
-
+/* Simple CSS3 Fade-in-down Animation */
 .fadeInDown {
     padding-top: 100px;
     -webkit-animation-name: fadeInDown;
@@ -278,26 +271,16 @@ input[type=text] [type=email], input [type=password] {
 
 
 
-/* REST */
+/* OTHERS */
 
 *:focus {
     outline: none;
 }
 
 #icon {
-    width: 30%;
+    width: 40%;
 }
 
 * {
     box-sizing: border-box;
-}
-#cart {
-    background-color: #39ace7;
-    height: 30px;
-    width: auto;
-    text-size-adjust: auto;
-}
-
-#icart {
-    font-size: 13pt;
 }
