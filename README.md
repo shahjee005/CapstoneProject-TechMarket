@@ -1,13 +1,28 @@
-# TECHMarket - Capstone Project. 
-# Problem Definition
-Due to current COVID-19 pandemic scenario, majority of small business here in Edmonton are closed for operations and struggling to survive and it is very difficult for customers to go physically and shop. As most of the organizations have already shifted their gears to remote work hence there is an increased demand of tech products and there is a clear shortage of such products in market as well. 
-# Project Plan
-In order to counter this problem, we are plaining to design a full-stack online shopping web application that will be simple and user-friendly for such small business to operate remotely. A user can find selected tech items like laptops, cell phones, iPads of famous brands with good deals here. 
-# Team Memebers
-###   https://github.com/mahmoudmaguid
-###   https://github.com/shahjee005
-###   https://github.com/zohairajweh
-###   https://github.com/mohammad-Adawi
 
-# CURRENTLY UNDER DEVELOPMENT
-	   
+
+![](TECHMarket.gif)
+
+## TechMarket-website was developed using React project template with ASP.NET Core
+ASP.NET Core with React installation tutorial:
+
+```
+https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-3.1&tabs=visual-studio
+```
+after installation, cd to TechMarket-website and run the program with the following command:
+```
+dotnet run
+```
+the program is now hosted at address:
+```
+http://localhost:5000
+```
+To run the frontend independently
+```
+cd ClientApp
+npm start
+```
+For running the app from Visual Studio:
+```
+Open the generated TechMarket.csproj file, and run the app as normal from there.
+The build process restores npm dependencies on the first run, which can take several minutes. Subsequent builds are much faster.
+```
