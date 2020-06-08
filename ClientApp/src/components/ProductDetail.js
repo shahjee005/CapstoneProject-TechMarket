@@ -36,10 +36,10 @@ export class ProductDetail extends Component {
     }
 
     addToCart(item) {
-        if (localStorage.getItem("id_token") != null) { // if loggin
+        if (localStorage.getItem("id_token")!=null) { // if loggin
             if (localStorage.getItem("cart") != "[]") {
-                var myJsonObject = (item);
-                myJsonObject.quantity = 1;
+                var myJsonObject = (item); 
+                myJsonObject.quantity = 1; 
                 myJsonObject = JSON.stringify(myJsonObject); //change back to string
                 var items = localStorage.getItem("cart").slice(0, -1).concat(',' + myJsonObject) + "]"; // set as array string
                 localStorage.setItem("cart", items); // add array cart to localstorage
@@ -84,13 +84,13 @@ export class ProductDetail extends Component {
                         error
                     });
                 }
-            );
+        );
         this.getProductToAddCart();
-
+        
     }
 
     render() {
-        const { error, isLoaded, items, obj } = this.state;
+        const { error, isLoaded, items, obj } = this.state;           
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
@@ -115,13 +115,13 @@ export class ProductDetail extends Component {
                             {items.map(item => (
                                 <div className="carousel-inner">
                                     <div className="item active">
-                                        <img src={item.imgUrl1} style={{ width: '100%', maxHeight: '400px', objectFit: "cover" }} />
+                                        <img src={item.imgUrl1} style={{ maxwidth: '200px%', maxHeight: '400px', objectFit: "cover" }} />
                                     </div>
                                     <div className="item">
-                                        <img src={item.imgUrl2} style={{ width: '100%', maxHeight: '400px', objectFit: "cover" }} />
+                                        <img src={item.imgUrl2} style={{ maxwidth: '200px%', maxHeight: '400px', objectFit: "cover" }} />
                                     </div>
                                     <div className="item">
-                                        <img src={item.imgUrl3} style={{ width: '100%', maxHeight: '400px', objectFit: "cover" }} />
+                                        <img src={item.imgUrl3} style={{ maxwidth: '200px%', maxHeight: '400px', objectFit: "cover" }} />
                                     </div>
                                 </div>
                             ))}
@@ -148,17 +148,15 @@ export class ProductDetail extends Component {
 
                     {/* Add white text at the end of page */}
                     <h8 style={{ color: 'white' }}>WOW </h8>
-
                     <div className="container">
                         {items.map(item => (
                             <div className="panel panel-default">
                                 <div className="panel-heading"><b>Introduction: {item.name}</b></div>
-                                <div className="panel-body"><b>TECHMarket:</b>
-                                    The idea behind creating this application was to provide a quick solution for both small business and customers who have bee affected due to current COVID-19 pandemic scenario. Majority of small business here in Edmonton are closed for operations and struggling to survive and it is very difficult for customers to go physically and shop. As most of the organizations have already shifted their gears to remote work hence there is an increased demand of tech products and there is a clear shortage of such products in market as well.<br /><br /><b>
-
-                                    </b> In order to counter this problem, TECHMarket a full-stack online shopping web application has been created that will be simple and user-friendly for such small business to operate remotely. A user can find selected tech items like laptops, cell phones, iPads, TV's, computer accessories, 3D printers and lots of other Tech related products from famous brands with very good deals here.</div>
+                                <div className="panel-body"><b>Apple Products
+                              :</b> Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Tech technology companies, alongside Amazon, Google, Microsoft and Facebook <br /><br /><b>Apple
+                              Inc</b> Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer, though Wayne sold his share back within 12 days. It was incorporated as Apple Computer, Inc..</div>
                             </div>
-
+                            
                         ))}
                     </div>
 
@@ -206,13 +204,13 @@ export class ProductDetail extends Component {
                             {items.map(item => (<tr><td>Weight</td><td>{item.weight}</td></tr>))}
                             {items.map(item => (<tr><td>Backlight</td><td>{item.backlight}</td></tr>))}
                         </tbody>
-                    </table>
-
+                    </table>    
+                    
                     {/* Back to home button at the end */}
                     {obj.map(item => (
                         <div className="text-center">
-                            <Link style={{ textAlign: "center" }} to="/">
-                                <button type="button" className="btn btn-success">BACK TO HOME</button>
+                            <Link style={{textAlign:"center"}} to="/">
+                                <button  type="button" className="btn btn-success">BACK TO HOME</button>
                             </Link>
                         </div>
                     ))}
@@ -221,7 +219,7 @@ export class ProductDetail extends Component {
                     <h1 style={{ color: 'white' }}>WOW </h1>
                     <h1 style={{ color: 'white' }}>YOU FOUND OUT OR SECRET</h1>
 
-                </div>
+               </div>
             );
         }
     }
