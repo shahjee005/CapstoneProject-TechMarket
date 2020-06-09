@@ -1,0 +1,18 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using TechMarket.Model;
+
+namespace TechMarket_website.Data
+{
+    public interface IUserRepository
+    {
+         public Task<Customer> getProfile(int id);
+         public Task<Customer> getAddress(int id);
+
+        public Task<int> SaveHistory(Orders orders);
+         public int getLastestOrder();
+         public void updateOrderDetails(OrderDetails itemToSave);
+         public void SaveAllChange();
+         public Task<List<Orders>> GetOrderHistory(int id);
+    }
+}
