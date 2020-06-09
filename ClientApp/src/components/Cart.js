@@ -112,6 +112,9 @@ export class Cart extends Component {
             return (
                 <div class="text-center">
                     <img src="https://i.ibb.co/jGNMttw/cart-png.png" className="img-fluid img-thumbnail" />
+                    <h4>YOU CART IS EMPTY</h4>
+                    <br/>
+                    
 </div>
             
             

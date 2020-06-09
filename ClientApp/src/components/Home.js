@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Home_products.css';
 import NotificationAlert from 'react-notification-alert';
 
-var success = { place: 'tl', message: (<div>Item added successful</div>), type: "success", icon: "now-ui-icons ui-1_bell-53", autoDismiss: 2 };
+var success = { place: 'tl', message: (<div>Item added successfully</div>), type: "success", icon: "now-ui-icons ui-1_bell-53", autoDismiss: 2 };
 var unsuccess = { place: 'tl', message: (<div>Please login to start shopping</div>), type: "danger", icon: "now-ui-icons ui-1_bell-53", autoDismiss: 2 };
 
 
