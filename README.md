@@ -38,20 +38,20 @@ The build process restores npm dependencies on the first run, which can take sev
 https://trello.com/b/1zly8k8Z/final-project
 
 ## Citation 
-####https://github.com/TECHCareers-by-Manpower
-####https://stackoverflow.com/questions/43464908/reactjs-connection-with-database
-####https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1
-####https://sqliteonline.com/
-####https://imgbb.com/
-####https://reactjs.org/
-####https://www.postman.com/
-####https://github.com/TECHCareers-by-Manpower
-####https://search.library.ualberta.ca/catalog/7754752
-####https://www.lynda.com/ASP-NET-tutorials/Building-React-ASP-NET-MVC-5-Applications/751345-2.html
-####https://www.w3schools.com/sql/
-####https://www.youtube.com/watch?v=1tVF9rSA1m0
-####https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb
-####https://www.onlineprogrammingbooks.com/little-asp-net-core-book/
+https://github.com/TECHCareers-by-Manpower<br>
+https://stackoverflow.com/questions/43464908/reactjs-connection-with-database<br>
+https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1<br>
+https://sqliteonline.com/<br>
+https://imgbb.com/<br>
+https://reactjs.org/<br>
+https://www.postman.com/<br>
+https://github.com/TECHCareers-by-Manpower<br>
+https://search.library.ualberta.ca/catalog/7754752<br>
+https://www.lynda.com/ASP-NET-tutorials/Building-React-ASP-NET-MVC-5-Applications/751345-2.html<br>
+https://www.w3schools.com/sql/<br>
+https://www.youtube.com/watch?v=1tVF9rSA1m0<br>
+https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb<br>
+https://www.onlineprogrammingbooks.com/little-asp-net-core-book/<br>
 
 
 ## Contributers<br>
