@@ -45,7 +45,6 @@ https://sqliteonline.com/<br>
 https://imgbb.com/<br>
 https://reactjs.org/<br>
 https://www.postman.com/<br>
-https://github.com/TECHCareers-by-Manpower<br>
 https://search.library.ualberta.ca/catalog/7754752<br>
 https://www.lynda.com/ASP-NET-tutorials/Building-React-ASP-NET-MVC-5-Applications/751345-2.html<br>
 https://www.w3schools.com/sql/<br>
